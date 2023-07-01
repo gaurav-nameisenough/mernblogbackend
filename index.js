@@ -21,7 +21,7 @@ const path = require('path');
 const cors = require('cors');
 
 app.use(cors({
-    origin: "https://mernblogbackend-0s45.onrender.com",
+    origin: "https://roaring-hummingbird-2b0cea.netlify.app",
 }));
 
 dotenv.config();
