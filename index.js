@@ -18,6 +18,12 @@ const multer = require("multer");
 
 const path = require('path');
 
+const cors = require('cors');
+
+app.use(cors({
+    origin: "http://localhost:3000",
+}));
+
 dotenv.config();
 
 const PORT = process.env.PORT || 5000;
