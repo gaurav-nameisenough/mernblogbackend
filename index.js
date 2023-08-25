@@ -21,7 +21,7 @@ const path = require('path');
 const cors = require('cors');
 
 app.use(cors({
-    origin: "https://reactnodeblog.netlify.app/",
+    origin: "https://reactnodeblog.netlify.app",
 }));
 
 dotenv.config();
